@@ -20,3 +20,4 @@ function callAPI(url, input, dataToEdit) {
 }
 
 callAPI(API_URL, "races/", race);
+console.log("race: ", race);
